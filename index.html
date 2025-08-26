@@ -10,6 +10,7 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
         integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg=="
         crossorigin="anonymous" referrerpolicy="no-referrer" />
+        <script defer src="script.js"></script>
 </head>
 
 <body>
@@ -35,6 +36,7 @@
     <main>
         <section>
             <div id="home" class="main-card">
+            <div style="display: flex; flex-direction: column;">
                 <div class="text-sec">
                     <div class="main-text">
                         <span>Welcom to lugx</span>
@@ -46,9 +48,12 @@
                             consectetur!
                             Nisi, nesciunt autem!</p>
                     </div>
-                    <div class="search">
-                        <input type="search" placeholder="Type Something" /> <button>Search now</button>
+                   
+                </div>
+                 <div class="search">
+                        <input type="search" placeholder="Type Something" /> <button>Search&nbsp;now</button>
                     </div>
+
                 </div>
 
                 <div class="main-img-here">
@@ -79,9 +84,9 @@
             </div>
         </section>
 
-        <section id="products">
+        <section id="products" class="hide">
             <div class="flex-col pad new-pad">
-                <div class="col-text ">
+                <div class="col-text  ">
                     <span>Trending</span>
                     <h2>Trending Games</h2>
                 </div>
@@ -89,7 +94,7 @@
                     <button>View All</button>
                 </div>
             </div>
-            <div class="grid-container pad">
+            <div class="grid-container pad ">
 
                 <div class="cards"><img src="images/image3.png" alt="">
                     <div class="flex-col text-cards">
@@ -127,8 +132,7 @@
             </div>
         </section>
 
-
-        <section id="most-played">
+        <section id="most-played " class="hide">
             <div class="third-sec">
                 <div class="flex-col  new-pad">
                     <div class="col-text ">
@@ -140,7 +144,7 @@
                     </div>
                 </div>
 
-                <div class="grid-container2">
+                <div class="grid-container2 hide">
                     <div class="small-cards"><img src="images/image7.png" alt="">
                         <div class="col-text text-center text-cards">
                             <div class="col-text"><span>Adventure</span>
@@ -194,8 +198,8 @@
             </div>
         </section>
 
-        <section>
-            <div class="fourth-sec m-t pad text-center">
+        <section class="hide">
+            <div class="fourth-sec m-t pad text-center hide">
                 <div class="fourth-sec">
                     <div class="col-text ">
                         <span>Trending</span>
@@ -213,8 +217,8 @@
             </div>
         </section>
 
-        <section>
-            <div id="contact-us" class="fifth-sec">
+        <section class="hide">
+            <div id="contact-us" class="fifth-sec ">
                 <div class="card1 card-new">
                     <div class=" new-pad">
                         <div class="col-text ">
@@ -251,6 +255,9 @@
     <footer>
         Copyright &copy; | Reserved 2020-2025
     </footer>
+
+
+    
 
 </body>
 
