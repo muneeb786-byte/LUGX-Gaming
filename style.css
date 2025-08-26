@@ -93,6 +93,15 @@ button:hover {
     cursor: pointer;
 }
 
+.hide {
+    opacity: 0;
+     transition: 2s ease;
+}
+
+.show{
+    opacity: 1;
+}
+
 img{
     cursor: pointer;
 }
@@ -131,17 +140,19 @@ img{
 }
 
 .search {
-    width: 100%;
+    width: 50%;
+    height: 30px;
     margin-top: 40px;
     border-radius: 40px;
     display: flex;
+    justify-content: space-between;
     overflow: hidden;
     background: #fff;
-    
+
 }
 
 .search input {
-    all: unset;
+    /* all: unset; */
     width: 100%;
     padding: 2px 5px 5px 10px;
     border-radius: 40px;
@@ -149,8 +160,8 @@ img{
     outline: none;
 }
 
-.search button{
-    margin-left: -127px;
+.search  button{
+    width: 140px;
 }
 
 .search button:hover {
@@ -497,16 +508,10 @@ footer {
 
     }
 
-    .search input {
-        padding-right: 22px;
+    .search {
+        width: 100%;
     }
 
-    .search button {
-        /* display: none; */
-        padding: 7px;
-        margin-left: -114px;
-        text-transform: none;
-    }
 
     .main-img-here {
         position: relative;
